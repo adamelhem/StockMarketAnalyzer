@@ -15,7 +15,7 @@ public class StockMarketAnalizer
         int max = 0;
 
         // Big O = n
-        for (int i = 0; i < input.Length; i++ )
+        for (int i = 0; i < len; i++ )
         {
             if (input[i]<min)
             {
